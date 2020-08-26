@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(182, 212, 202);
+}
+
+.title {
+  font-size: larger;
+  color: brown;
+}
+
+.error{
+  font-size: x-small;
+  color: brown;
+  padding: 10px;
+}
+
+.top-section {
+  padding: 20px;
+  margin: 20px;
+}
+
+.row {
+  clear: both;
+  padding: 20px;
+  margin: 20px;
+}
+
+.country, .average, .common-progress-bar {
+  float: left;
+  width: 250px;
+  margin: 5px;
+}
+
+/* .average {
+  float: left;
+  width: 250px;
+  margin: 5px;
+} */
+
+.common-progress-bar {
+  height: 25px;
+  background-color: #909090;
+  border-radius: 2px;
+  
+}
+.progress {
+  height: 100%;
+  background-color: #909090;
+  width: 70%;
+  border-radius: 2px;
+}
+
+.country-list {
+  padding: 10px;
+  margin: auto;
+  left: 150px;
+  position: absolute;
+  background-color:white; 
+}
+
+.c-name {
+  border: 1px solid #009688;
+  padding: 10px;
+}
+
+.country form {
+  float: left;
+}
+
+.country .country-input {
+  width: 100px;
+}
+
+/* .horiz-bar {
+  float: left;
+  display: inline-block;
+  background-color: blue;
+  border-style: solid;
+  border-color: black;
+} */
+
+@media only screen and (max-width: 900px) {
+  .country, .average, .common-progress-bar {
+    float: left;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .common-progress-bar {
+    height: 25px;
+    background-color: #909090;
+    border-radius: 2px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .country, .average, .common-progress-bar{
+    float: left;
+    width: 300px;
+    margin: 10px;
+  }
+  .common-progress-bar {
+    height: 25px;
+    background-color: #909090;
+    border-radius: 2px;
+    margin: 10px;
+  }
+}
